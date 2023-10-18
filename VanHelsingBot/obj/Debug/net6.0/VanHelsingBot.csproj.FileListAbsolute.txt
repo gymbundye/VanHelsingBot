@@ -1,0 +1,14 @@
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\bin\Debug\net6.0\VanHelsingBot.exe
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\bin\Debug\net6.0\VanHelsingBot.deps.json
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\bin\Debug\net6.0\VanHelsingBot.runtimeconfig.json
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\bin\Debug\net6.0\VanHelsingBot.dll
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\bin\Debug\net6.0\VanHelsingBot.pdb
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.AssemblyInfoInputs.cache
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.AssemblyInfo.cs
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.csproj.CoreCompileInputs.cache
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.dll
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\refint\VanHelsingBot.dll
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.pdb
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\VanHelsingBot.genruntimeconfig.cache
+C:\Users\pengu\source\repos\VanHelsingBot\VanHelsingBot\obj\Debug\net6.0\ref\VanHelsingBot.dll
