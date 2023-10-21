@@ -1,6 +1,6 @@
-﻿
+﻿using VanHelsingBot;
+using System.Text.Json.Serialization;
 using System.Text.Json;
-using VanHelsingBot;
 
 var monsterLogic = new MonsterLogic();
 
@@ -10,7 +10,7 @@ Console.WriteLine("Press 1 to add a Monster to the database.");
 Console.WriteLine("Press 2 to view a Monster");
 Console.WriteLine("Type exit to end program.");
 
-var userInput = Console.ReadLine();
+string userInput = Console.ReadLine();
 
 while (userInput?.ToLower() != "exit")
 {
@@ -32,16 +32,27 @@ while (userInput?.ToLower() != "exit")
         Console.WriteLine("Where can we find it?");
         monster.Location = Console.ReadLine();
 
+        monsterLogic.AddMonster(monster);
+
+        Console.WriteLine("Monster Added!");
+
 
     }
     if (userInput == "2") 
     {
-        Console.WriteLine("Which Monster do we hunt?");
-        var monsterName = Console.ReadLine();
-        var monster = monsterLogic.GetMonster(monsterName);
-        Console.WriteLine(JsonSerializer.Serialize(monster));
-
+        if (userInput != null)
+        {
+            Console.WriteLine("Which Monster do we hunt?");
+            var monsterName = Console.ReadLine();
+            var monster = monsterLogic.GetMonster(monsterName);
+            Console.WriteLine(JsonSerializer.Serialize(monster));
+        }
+        else
+        {
+            Console.WriteLine("Not in Database.");
+        }
     }
+    
     Console.WriteLine("I am Van Helsing Bot!");
     Console.WriteLine("How may I help you fight the forces of evil?");
     Console.WriteLine("Press 1 to add a Monster to the database.");

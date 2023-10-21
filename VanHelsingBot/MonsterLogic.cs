@@ -19,7 +19,12 @@ namespace VanHelsingBot
 
         public void AddMonster(Monster monster) 
         {
-            _monsters?.Add(monster);
+            if (monster is Monster)
+            {
+
+
+                _monster?.Add(monster.Name, monster as Monster);
+            }
         }
 
         public List<Monster> GetMonsters() 
@@ -27,9 +32,17 @@ namespace VanHelsingBot
             return _monsters;
         }
 
-        public Monster GetMonster(string name) 
+        public Monster? GetMonster(string name)
         {
-            return _monster[name];
+            try
+            {
+                return _monster[name];
+            }
+            catch(Exception) 
+            {
+                
+                return null;
+            }
         }
     }
 
